@@ -19,8 +19,8 @@ const HomePage = () => {
     return (
         <div className='root-container'>
             <Header />
+            <h1>hello</h1>
             {listProduct.map((product) => {
-                console.log("product terong map,", product);
                 return <div key={product.id}>
                     <img src={product.img1} />
                     <h1>{product.name}</h1>
