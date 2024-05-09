@@ -15,7 +15,7 @@ const HomePage = () => {
     }, []);
 
 
-
+    console.log("continue here");
     return (
         <div className='root-container'>
             <Header />
