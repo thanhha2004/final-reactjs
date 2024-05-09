@@ -14,12 +14,10 @@ const HomePage = () => {
         getListProduct();
     }, []);
 
-
-    console.log("continue here");
     return (
         <div className='root-container'>
             <Header />
-            <h1>hello</h1>
+            <h1>HomePage</h1>
             {listProduct.map((product) => {
                 return <div key={product.id}>
                     <img src={product.img1} />
